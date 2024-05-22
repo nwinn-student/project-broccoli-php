@@ -1,0 +1,75 @@
+/* Place your CSS styles in this file */
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+h1 {
+    color: rgb(222, 222, 222);
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: x-large;
+}
+div{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    width:100%;
+}
+pre{
+    color: rgb(221, 221, 221);
+}
+p{
+    color: rgb(221, 221, 221);
+}
+q{
+	color: rgb(221, 221, 221);
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	background-color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: white;
+}
+li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+}
+li a.active{
+	background-color: #05AA6D
+	color: white;
+}
+table, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+th, tr:nth-child(even), tr:nth-child(odd){
+	color: white;
+}
+th {border-style: groove;}
+tr:nth-child(even) {background-color: rgb(50, 50, 50);}
+tr:nth-child(odd) {background-color: black;}
+tr:nth-child(odd):hover {background-color: rgb(13, 87, 87);}
+tr:nth-child(even):hover {background-color: rgb(61, 158, 158);}
+.arrayTitle{
+    background-color: black;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    border: 2px inset rgb(156, 156, 156);
+}
+#submit{
+    cursor: pointer;
+}
