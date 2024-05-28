@@ -10,7 +10,7 @@ A holder of HTML, CSS, JS, PHP, and SQL related projects that have yet to be com
 
 | Title | Description |
 | :--- | :--- |
-| [`creatingAndQueryingDataset`](https://github.com/nwinn-student/project-broccoli-php/tree/main/creatingAndQueryingDataset) | Holder text to later be changed |
+| [`creatingAndQueryingDataset`](https://github.com/nwinn-student/project-broccoli-php/tree/main/creatingAndQueryingDataset) | Creates/overrides a database called <code>userinformation</code>, with 3 tables, user, stats, and user-stats, which are populated with random numbers.  The database is then queried multiple times and a derived column is appended to stats.  |
 
 </details>
 
