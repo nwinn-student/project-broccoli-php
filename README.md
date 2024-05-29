@@ -6,6 +6,16 @@ A holder of HTML, CSS, JS, PHP, and SQL related projects that have yet to be com
 
 <details>
 
+<summary>Current Projects</summary>
+
+| Title | Description |
+| :--- | :--- |
+| [`websiteUsingTemplates`](https://github.com/nwinn-student/project-broccoli-php/tree/main/websiteUsingTemplates) | Sample text.  |
+
+</details>
+
+<details>
+
 <summary>Completed Projects</summary>
 
 | Title | Description |
