@@ -4,7 +4,7 @@
 
 Creates/overrides a database called <code>userinformation</code>, with 3 tables, <code>user</code>, <code>stats</code>, and <code>user-stats</code>, which are populated with random numbers.  
 
-| Title | Description |
+| Table | Description |
 | :--- | :--- |
 | <code>user</code> | Contains two columns, <code>user_id : int(11), auto-increments</code> - the key for indexing the user cell and <code>username : varchar(100)</code> - the username associated with the user_id. |
 | <code>stats</code> | Contains  six columns, <code>stats_id : int(11), auto-increments</code> - the key for indexing the stats cell, <code>level : int(11)</code> - the level associated with the stats_id, <code>base_health : int(11)</code> - the health value when not accounting for equipments or stats, only the level, <code>health : int(11)</code> - the health value after accounting for any formula or function that can impact it, <code>experience : int(11)</code> - the current experience held, and <code>required_experience : int(11)</code> - the required experience to level up. |
