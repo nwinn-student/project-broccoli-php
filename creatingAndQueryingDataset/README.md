@@ -1,4 +1,4 @@
-# Project creatingAndQueryingDataset
+# Creating and Querying a Dataset
 
 ## Extra Information
 
