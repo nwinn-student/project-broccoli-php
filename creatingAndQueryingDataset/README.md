@@ -6,8 +6,8 @@ Creates/overrides a database called <code>userinformation</code>, with 3 tables,
 
 | Title | Description |
 | :--- | :--- |
-| <code>user</code> | Contains two columns, <code>user_id : int(11), auto-increments - the key for indexing the user cell</code> and <code>username : varchar(100) - the username associated with the user_id</code>. |
-| <code>stats</code> | Contains  six columns, <code>stats_id : int(11), auto-increments - the key for indexing the stats cell</code>, <code>level : int(11) - the level associated with the stats_id</code>, <code>base_health : int(11) - the health value when not accounting for equipments or stats, only the level</code>, <code>health : int(11) - the health value after accounting for any formula or function that can impact it</code>, <code>experience : int(11) - the current experience held</code>, and <code>required_experience : int(11) - the required experience to level up</code>. |
+| <code>user</code> | Contains two columns, <code>user_id : int(11), auto-increments</code> - the key for indexing the user cell and <code>username : varchar(100)</code> - the username associated with the user_id. |
+| <code>stats</code> | Contains  six columns, <code>stats_id : int(11), auto-increments</code> - the key for indexing the stats cell, <code>level : int(11)</code> - the level associated with the stats_id, <code>base_health : int(11)</code> - the health value when not accounting for equipments or stats, only the level, <code>health : int(11)</code> - the health value after accounting for any formula or function that can impact it, <code>experience : int(11)</code> - the current experience held, and <code>required_experience : int(11)</code> - the required experience to level up. |
 | <code>user_stats</code> | Contains two columns, <code>user_id</code>, which is a foreign key sourced from <code>user</code> and <code>stats_id</code>, which is a foreign key sourced from <code>stats</code>.  Connects a user and stats id so that they can be referenced. |
 
 The database is then queried multiple times and a derived column is appended to <code>stats</code>.
